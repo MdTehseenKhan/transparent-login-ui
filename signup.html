@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<title>Transparent | Sign Up</title>
+</head>
+<body>
+<div class="Box">
+	<h2>Sign Up</h2>
+<form>
+	<div class="inputBox">
+		<input type="text" name="" required="" title="UserName"><label>Full Name</label>
+	</div>
+	<div class="inputBox">
+		<input type="password" name="" required="" title="Password"><label>Password</label>
+	</div>
+	<div class="inputBox">
+		<input type="password" required="" title="Confirm Password"><label>Confirm Password</label>
+	</div>
+	<div class="gender">
+		<label>Gender :</label>
+		<label><input type="radio" name="gender" >Male</label>
+		<label><input type="radio" name="gender">Female</label>
+		<label><input type="radio" name="gender">Others...</label>
+	</div>
+	<div class="inputBox">
+		<input type="email" name="" required="" title="Email Address"><label>Email Address</label>
+	</div>
+	<div class="inputBox">
+		<input type="text" name="" required="" title="Country Name"><label>Country</label>
+	</div>
+	
+	<input type="submit" class="submit" value="Sign Up" title="Sign Up">
+	</div>
+	<div class="copyright"></div>
+</form>
+<script>
+	var cr = document.getElementsByClassName('copyright')[0];
+	var yr = new Date().getFullYear();
+	cr.innerHTML = "Copyright <sup>&copy;</sup> " + yr;
+</script>
+</body>
+</html>

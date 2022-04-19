@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transparent</title>
+	<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+<div class="Box">
+	<h2>Log In</h2>
+<form>
+	<div class="inputBox">
+		<input type="text" name="" required="" title="UserName"><label>UserName</label>
+	</div>
+	<div class="inputBox">
+		<input type="password" name="" required="" title="Password"><label>Password</label>
+	</div>
+	<input type="submit" name="" class="submit" title="LogIn" value="Log In"/>
+	<div class="tooltip"><a href="forget.html" class="forget" >Forgot Password? Don't worry...</a>
+	<span class="ftooltip">Have you forgotten your password? Don't worry Click Here</span></div>
+	<h2 class="or">OR</h2>
+	<a href="signup.html" class="submit" title="Sign Up">Sign Up</a>
+	</div>
+	<div class="copyright"></div>
+</form>
+<script>
+	var cr = document.getElementsByClassName('copyright')[0];
+	var yr = new Date().getFullYear();
+	cr.innerHTML = "Copyright <sup>&copy;</sup> " + yr;
+</script>
+</body>
+</html>
